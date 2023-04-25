@@ -1,6 +1,8 @@
 import React from "react";
 export default function Header (){
     return (
-        <div>Header</div>
+        <div>
+            <h1>Agende su Cita</h1>
+        </div>
     )
 }
