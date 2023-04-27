@@ -1,8 +1,9 @@
 import React from "react";
-export default function Header (){
+export default function Header ({titulo}){
     return (
         <div>
-            <h1>Agende su Cita</h1>
+            
+            <h1>{titulo}</h1>
         </div>
     )
 }
